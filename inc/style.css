@@ -62,3 +62,9 @@ body{
     text-align: center;
     width: 200px;
 }
+li:hover{
+    text-decoration: underline;
+}
+.active{
+    color: gray;
+}
