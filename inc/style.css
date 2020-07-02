@@ -7,7 +7,8 @@ body{
     background-color: #2c2c2c;
 }
 .box{
-	width: 80%;
+    width: 80%;
+    margin: 0 auto;
 }
 .header{
     width: 100%;
@@ -28,6 +29,36 @@ body{
 	font-size: 35px;
 }
 .nav{
-	width: 100%
-	background-color: #d17171;
+    margin-top: 15px;
+	width: 100%;
+    background-color: #d17171;
+    display: flex;
+    height: 60px;
+}
+.nav ul{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav ul a{
+    text-decoration: none;
+    color: white;
+}
+.content{
+    margin-top: 15px;
+    color: white;
+}
+.footer{
+    position: absolute;
+    bottom: 5px;
+    color: white;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 200px;
 }
