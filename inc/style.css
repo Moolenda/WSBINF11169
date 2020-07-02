@@ -68,3 +68,9 @@ li:hover{
 .active{
     color: gray;
 }
+form{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 50px auto;
+}
